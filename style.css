@@ -1,0 +1,73 @@
+body{
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, main, footer{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+main{
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+header{
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+/* formatação que traz mais destaque ao header */
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+/* remove os pontinhos da lista ul */
+
+nav li{
+    display: inline;
+    margin: 0px;
+}
+/* fazer os Itens ficarem Lado a Lado */
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+section.destaques{
+    text-align: center;
+}
+
+.destaque-item{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    vertical-align: top;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.destaque-item img {
+    height: 200px;
+    object-fit: cover; 
+}
+
+.links a{
+    color: rgb(3, 201, 33);
+}
+
+h3.contato{
+    text-align: center;
+}
